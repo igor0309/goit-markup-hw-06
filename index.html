@@ -23,9 +23,9 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <nav class="header-navbar">
+        <nav class="header-nav">
           <a class="logo-icon header-logo" href="./index.html"
-            >Web<span class="logo-accent">Studio</span></a
+            >Web<span class="logo-part">Studio</span></a
           >
           <ul class="header-nav-list">
             <li class="header-nav-item">
@@ -67,7 +67,7 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-          <nav class="mobile-menu-nav">
+          <nav class="mobile-menu-navbar">
             <ul class="mobile-menu-list">
               <li class="mobile-menu-item">
                 <a class="mobile-menu-link" href="/">Studio</a>
@@ -218,11 +218,16 @@
           <ul class="team-list">
             <li class="team-list-item">
               <picture>
-                <source srcset="./images/team-image/img-" />
+                <source
+                  srcset="
+                    ./images/team-img/mark-photo-@1x.jpg 1x,
+                    ./images/team-img/mark-photo-@2x.jpg 2x
+                  "
+                />
 
                 <img
-                  src="./images/team-image/img-mark-@1x.jpg"
-                  alt="man photo"
+                  src="./images/team-img/mark-photo-@1x.jpg"
+                  alt="man photo smiling"
                 />
               </picture>
               <div class="team-card">
@@ -284,12 +289,15 @@
               <picture>
                 <source
                   srcset="
-                    ./images/team-img/@1x.jpg 1x,
-                    ./images/team-img/@2x.jpg 2x
+                    ./images/team-img/tom-photo-@1x.jpg 1x,
+                    ./images/team-img/tom-photo-@2x.jpg 2x
                   "
                 />
 
-                <img src="./images/team-img/@1x.jpg" alt="man photo" />
+                <img
+                  src="./images/team-img/tom-photo-@1x.jpg"
+                  alt="man photo smiling"
+                />
               </picture>
               <div class="team-card">
                 <h3 class="team-item-title">Mark Guerrero</h3>
@@ -350,12 +358,15 @@
               <picture>
                 <source
                   srcset="
-                    ./images/team-img/@1x.jpg 1x,
-                    ./images/team-img/@2x.jpg 2x
+                    ./images/team-img/camila-photo-@1x.jpg 1x,
+                    ./images/team-img/camila-photo-@2x.jpg 2x
                   "
                 />
 
-                <img src="./images/team-img/@1x.jpg" alt="woman photo" />
+                <img
+                  src="./images/team-img/camila-photo-@1x.jpg"
+                  alt="woman photo smiling"
+                />
               </picture>
 
               <div class="team-card">
@@ -417,12 +428,15 @@
               <picture>
                 <source
                   srcset="
-                    ./images/team-img/@1x.jpg 1x,
-                    ./images/team-img/@2x.jpg 2x
+                    ./images/team-img/daniel-photo-@1x.jpg 1x,
+                    ./images/team-img/daniel-photo-@2x.jpg 2x
                   "
                 />
 
-                <img src="./images/team-img/@1x.jpg" alt="man photo" />
+                <img
+                  src="./images/team-img/daniel-photo-@1x.jpg"
+                  alt="man photo smiling"
+                />
               </picture>
 
               <div class="team-card">
@@ -490,20 +504,20 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/portfolio-img/img-mob-@1x.jpg 1x,
-                      ./images/portfolio-img/img-mob-@2x.jpg 2x
+                      ./images/portfolio-img/banking-app-img-mob-@1x.jpg 1x,
+                      ./images/portfolio-img/banking-app-img-mob-@2x.jpg 2x
                     "
                   />
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio-img/img-@1x.jpg 1x,
-                      ./images/portfolio-img/img-@2x.jpg 2x
+                      ./images/portfolio-img/banking-app-img-@1x.jpg 1x,
+                      ./images/portfolio-img/banking-app-img-@2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/portfolio-image/screen-img-mob-@1x.jpg"
+                    src="./images/portfolio-img/banking-app-img-mob-@1x.jpg"
                     alt="Screenshots from a banking app"
                     width="360"
                   />
@@ -526,20 +540,20 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/portfolio-img/img-mob-@1x.jpg 1x,
-                      ./images/portfolio-img/img-mob-@2x.jpg 2x
+                      ./images/portfolio-img/cashless-payment-img-mob-@1x.jpg 1x,
+                      ./images/portfolio-img/cashless-payment-img-mob-@2x.jpg 2x
                     "
                   />
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio-img/img-@1x.jpg 1x,
-                      ./images/portfolio-img/img-@2x.jpg 2x
+                      ./images/portfolio-img/cashless-payment-img-@1x.jpg 1x,
+                      ./images/portfolio-img/cashless-payment-img-@2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/portfolio-img/img-mob-@1x.jpg"
+                    src="./images/portfolio-img/cashless-payment-img-mob-@1x.jpg"
                     alt="Cashless terminal and phone"
                     width="360"
                   />
@@ -562,20 +576,20 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/portfolio-img/img-mob-@1x.jpg 1x,
-                      ./images/portfolio-img/img-mob-@2x.jpg 2x
+                      ./images/portfolio-img/meditation-app-img-mob-@1x.jpg 1x,
+                      ./images/portfolio-img/meditation-app-img-mob-@2x.jpg 2x
                     "
                   />
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio-img/img-@1x.jpg 1x,
-                      ./images/portfolio-img/img-@2x.jpg 2x
+                      ./images/portfolio-img/meditation-app-img-@1x.jpg 1x,
+                      ./images/portfolio-img/meditation-app-img-@2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/portfolio-img/img-mob-@1x.jpg"
+                    src="./images/portfolio-img/meditation-app-img-mob-@1x.jpg"
                     alt="Laptop and phone screens"
                     width="360"
                   />
@@ -598,20 +612,20 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/portfolio-img/img-mob-@1x.jpg 1x,
-                      ./images/portfolio-img/img-mob-@2x.jpg 2x
+                      ./images/portfolio-img/taxi-service-img-mob-@1x.jpg 1x,
+                      ./images/portfolio-img/taxi-service-img-mob-@2x.jpg 2x
                     "
                   />
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio-img/img-@1x.jpg 1x,
-                      ./images/portfolio-img/img-@2x.jpg 2x
+                      ./images/portfolio-img/taxi-service-img-@1x.jpg 1x,
+                      ./images/portfolio-img/taxi-service-img-@2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/portfolio-img/img-mob-@1x.jpg"
+                    src="./images/portfolio-img/taxi-service-img-mob-@1x.jpg"
                     alt="Hands in black gloves hold a car steering wheel"
                     width="360"
                   />
@@ -634,20 +648,20 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/portfolio-img/img-mob-@1x.jpg 1x,
-                      ./images/portfolio-img/img-mob-@2x.jpg 2x
+                      ./images/portfolio-img/screen-illustrations-img-mob-@1x.jpg 1x,
+                      ./images/portfolio-img/screen-illustrations-img-mob-@2x.jpg 2x
                     "
                   />
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio-img/img-@1x.jpg 1x,
-                      ./images/portfolio-img/img-@2x.jpg 2x
+                      ./images/portfolio-img/screen-illustrations-img-@1x.jpg 1x,
+                      ./images/portfolio-img/screen-illustrations-img-@2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/portfolio-img/img-mob-@1x.jpg"
+                    src="./images/portfolio-img/screen-illustrations-img-mob-@1x.jpg"
                     alt="Phone screen and wallpapers"
                     width="360"
                   />
@@ -670,20 +684,20 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/portfolio-img/img-mob-@1x.jpg 1x,
-                      ./images/portfolio-img/img-mob-@2x.jpg 2x
+                      ./images/portfolio-img/online-courses-img-mob-@1x.jpg 1x,
+                      ./images/portfolio-img/online-courses-img-mob-@2x.jpg 2x
                     "
                   />
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio-img/img-@1x.jpg 1x,
-                      ./images/portfolio-img/img-@2x.jpg 2x
+                      ./images/portfolio-img/online-courses-img-@1x.jpg 1x,
+                      ./images/portfolio-img/online-courses-img-@2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/portfolio-img/img-mob-@1x.jpg"
+                    src="./images/portfolio-img/online-courses-img-mob-@1x.jpg"
                     alt="Young girl look at a phone screen and listen music"
                     width="360"
                   />
